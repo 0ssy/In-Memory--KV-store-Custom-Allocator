@@ -1,0 +1,40 @@
+# Build artifacts
+build/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.exe
+*.exp
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.vcproj
+*.sln.docstates
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test outputs
+*.gcda
+*.gcno
+*.gcov
+
+# Benchmark outputs
+benchmarks/*.exe
+
+# OS
+Thumbs.db
+.DS_Store
